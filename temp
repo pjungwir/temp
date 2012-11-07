@@ -1,0 +1,5 @@
+#!/bin/bash
+
+sensors | egrep '^Core'
+hddtemp /dev/sda
+hddtemp /dev/sdb
